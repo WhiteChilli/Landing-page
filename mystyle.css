@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+ width: 80%;
+ margin-top: 1em;
+}
+
+.hero {  
+  padding: 2em;
+  background-image: url("./unsplash.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 8px;
+}
+
+.date-time, .location {
+  background-color: #454545;
+  margin: .5em;
+  padding: 1em;
+  border-radius: 8px;
+  /* border: 1px solid #2c2c2c; */
+}
+
+.notify {
+  margin: 2em;
+}
+
+.btn {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.display {
+  text-align: center;
+}
+
+.info-text, svg, #countdown {
+  color: #eee;
+}
+
+.signup {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signup-form {
+  /* border: 1px solid orangered; */
+
+}
+
